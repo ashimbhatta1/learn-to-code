@@ -1,0 +1,149 @@
+body{
+	font-family: Ariala, helvetica, self-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #F4F4F4
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+header{
+	background: #35424a;
+	color:white ;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: green 3px solid;
+}
+header a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+header ul{
+	margin: 0;
+	padding: 0;
+
+}
+header li{
+	margin: 2px;
+	padding: 0 20px 0 20px;
+	float: left;
+	display: inline;
+
+}
+header #branding{
+	float: left;
+	padding-top: : 20px;
+	
+
+
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+
+}
+header #branding h1{
+	margin:0; 
+	font-size: 39px;
+}
+header .color1 {
+	color: green;
+}
+header nav ul li .current{
+	color: ;
+}
+header a:hover{
+	color: green;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+
+/*showcase*/
+
+#showcase{
+	min-height: 500px;
+	background-image: url("./img/get.jpg");
+	background: url("./img/get.jpg") no-repeat 0 -500px;
+
+}
+#showcase .container{
+	text-align: center;
+}
+#showcase .container h1{
+	font-size: 64px;
+	font-weight: bold;
+	color: white;
+}
+#showcase .container p{
+	font-size: 20px;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+#newsletter{
+	background-color: #35424a;
+	padding: 15px;
+	color: white;
+	height: 80px;
+	border-top:3px green solid;
+}
+#newsletter h1
+{
+	float: left;
+	margin-left: 60px;
+	font-size: 30px;
+}
+#newsletter form{
+	float: right;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 28px;
+	width: 300px;
+	border:lightblue 0.5px solid;
+}
+.button1{
+	height: 38px;
+	background: green;
+	padding:0 20px 0 20px ;
+	border: none;
+	color: white;
+}
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box{
+	float: left;
+	width:30%;
+	padding: 10px;
+	text-align: center;
+}
+#boxes .box img{
+	width: 90px;
+}
+footer{
+	text-align: center;
+	font-size: 10px;
+	margin-top: 30px;
+}
+#about{
+	text-align: justify;
+	padding: 15px 50px 15px 50px;
+}
+#boxes a{
+	color: black;
+	text-decoration: none;
+}
+#boxes a:hover{
+	color: green;
+	font-weight: ;
+	font-size: 17px;
+}
